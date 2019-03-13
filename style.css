@@ -53,7 +53,6 @@ body {
     color: #FFFFFF;
     background: #F2994A;
     margin: auto;
-
 }
 
 .number {
@@ -87,4 +86,10 @@ body {
     color: #FFFFFF;
     background: #F12A8A;
     margin: auto;
+}
+
+/*hover effects*/
+.clear:hover, .number:hover, .operate:hover, .dec-equals:hover {
+    background: #FFFFFF;
+    color: #6F5F75;
 }
