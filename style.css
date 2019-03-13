@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-h1 {
+#title {
     font-family: 'Lobster', cursive;
     font-size: 64px;
     font-weight: normal;
