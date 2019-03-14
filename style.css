@@ -1,12 +1,13 @@
-body {
-    background: #ffffff;
-    font-family: 'Overpass', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 36px;
-    text-align: center;
+.calculator-header {
+	background: #ffffff;
+	font-family: "Overpass", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 36px;
+	text-align: center;
 }
+
 
 #title {
     font-family: 'Lobster', cursive;
@@ -16,35 +17,36 @@ body {
     color: #6F5F75;
 }
 
-/* calculator body */
-#calculator-body{
-    width: 336px;
-    height: 372px;
-    border: 3px solid #E0E0E0;
-    box-sizing: border-box;
-    border-radius: 15px;
-    padding: 25px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4, auto);  
-    line-height: 54px;
+/* calculator keys */
+.calculator-keys {
+	width: 336px;
+	height: 372px;
+	border: 3px solid #e0e0e0;
+	box-sizing: border-box;
+	border-radius: 15px;
+	padding: 25px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	line-height: 54px;
 }
 
 /* display */
-#display {
-    width: 191px;
-    height: 49px;
-    font-size: 30px;
-    text-align: right;
-    grid-area: 1/1/2/4;
-    border: 2px solid #E0E0E0;
-    box-sizing: border-box;
-    color: #828282;
-    margin: auto;
+.display {
+	width: 191px;
+	height: 49px;
+	font-size: 30px;
+	text-align: right;
+	grid-area: 1/1/2/4;
+	border: 2px solid #e0e0e0;
+	box-sizing: border-box;
+	color: #828282;
+	margin: auto;
 }
 
 /* buttons */
 .clear {
+
     width: 51px;
     height: 51px;
     border-radius: 50%;
@@ -53,28 +55,32 @@ body {
     color: #FFFFFF;
     background: #F2994A;
     margin: auto;
-}
+  	font-size: 25px;
+
 
 .number {
-    width: 51px;
-    height: 51px;
-    border-radius: 50%;
-    border: 1px solid #E0E0E0;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    background: #39D6E0;
-    margin: auto;
+	width: 51px;
+	height: 51px;
+	border-radius: 50%;
+	border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	color: #ffffff;
+	background: #39d6e0;
+	margin: auto;
+	font-size: 25px;
+
 }
 
 .operate {
-    width: 51px;
-    height: 51px;
-    border-radius: 50%;
-    border: 1px solid #E0E0E0;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    background: #53E13B;
-    margin: auto;
+	width: 51px;
+	height: 51px;
+	border-radius: 50%;
+	border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	color: #ffffff;
+	background: #53e13b;
+	margin: auto;
+	font-size: 25px;
 }
 
 .dec-equals {
@@ -92,4 +98,4 @@ body {
 .clear:hover, .number:hover, .operate:hover, .dec-equals:hover {
     background: #FFFFFF;
     color: #6F5F75;
-}
+  }
