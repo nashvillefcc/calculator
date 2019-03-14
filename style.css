@@ -8,12 +8,13 @@
 	text-align: center;
 }
 
-h1 {
-	font-family: "Lobster", cursive;
-	font-size: 64px;
-	font-weight: normal;
-	text-decoration-line: underline;
-	color: #6f5f75;
+
+#title {
+    font-family: 'Lobster', cursive;
+    font-size: 64px;
+    font-weight: normal;
+    text-decoration-line: underline;
+    color: #6F5F75;
 }
 
 /* calculator keys */
@@ -45,16 +46,17 @@ h1 {
 
 /* buttons */
 .clear {
-	width: 51px;
-	height: 51px;
-	border-radius: 50%;
-	border: 1px solid #e0e0e0;
-	box-sizing: border-box;
-	color: #ffffff;
-	background: #f2994a;
-	margin: auto;
-	font-size: 25px;
-}
+
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    background: #F2994A;
+    margin: auto;
+  	font-size: 25px;
+
 
 .number {
 	width: 51px;
@@ -82,13 +84,18 @@ h1 {
 }
 
 .dec-equals {
-	width: 51px;
-	height: 51px;
-	border-radius: 50%;
-	border: 1px solid #e0e0e0;
-	box-sizing: border-box;
-	color: #ffffff;
-	background: #f12a8a;
-	margin: auto;
-	font-size: 25px;
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    background: #F12A8A;
+    margin: auto;
 }
+
+/*hover effects*/
+.clear:hover, .number:hover, .operate:hover, .dec-equals:hover {
+    background: #FFFFFF;
+    color: #6F5F75;
+  }
